@@ -13,7 +13,7 @@ body{
 }
 
 .container{
-    max-width: 700px;
+    width: 700px;
     margin: 20px auto;
     background: #FFFFFF;
     border-radius: 15px;
@@ -83,9 +83,22 @@ h2{
     text-align: center;
 }
 
+.rsvp p{
+    font-weight: 600;
+}
+
 .map{
     text-align: center;
     margin: 20px ;
+}
+
+.contact-details{
+    background-color: #E6D8C3;
+    margin: 0px 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: solid 2px #C5A15E;
 }
 
 footer{
@@ -102,11 +115,7 @@ a{
     color: #6B4E22;
 }
 
-
-
-
-
-  </style>
+</style>
 </head>
 <body>
 
@@ -116,7 +125,8 @@ a{
     <p>Join us for James 27th Birthday Party</p>
   </header>
 
-  <section class="details">
+<main>
+    <section class="details">
     <h2>Event Details</h2>
     <p><span class="highlight">Date:</span><span> Dec 04, 2025</span></p>
     <p><span class="highlight">Time:</span> 11:00 AM - 12:00 AM</p>
@@ -130,7 +140,6 @@ a{
     <div class="tags">
       <h4 class="tag">Gift</h4>
       <h4 class="tag">Good Vibes</h4>
-      <h4 class="tag">Optional Present</h4>
     </div>
   </section>
 
@@ -142,18 +151,21 @@ a{
 
   <section class="map">
     <h2>Map Location</h2>
-    <iframe src="https://www.google.com/maps/embed?pb=!3m2!1sen!2sph!4v1760948048549!5m2!1sen!2sph!6m8!1m7!1s9kOvZeHMBVGrxJlzJZ4C1w!2m2!1d14.45119683440817!2d120.9555720197719!3f54.43932975062454!4f-36.5373551009253!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!3m2!1sen!2sph!4v1760948048549!5m2!1sen!2sph!6m8!1m7!1s9kOvZeHMBVGrxJlzJZ4C1w!2m2!1d14.45119683440817!2d120.9555720197719!3f54.43932975062454!4f-36.5373551009253!5f0.7820865974627469" width="600" height="450" style="border: solid 2px #C5A15E; border-radius: 15px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </section>
 
   <section class="contact">
     <h2>Contact</h2>
-    <p>For inquiries, please contact:</p>
-    <p><strong>James Bryan</strong> — (+63)9876-543-2100</p>
+    <div class="contact-details">
+        <p>For inquiries, please contact:</p>
+        <p><strong>James Bryan</strong> — (+63)9876-543-2100</p>
+    </div>
   </section>
-
-  <footer>
+</main>
+  
+<footer>
     Looking forward to celebrating with you at Panapaan IV!
-  </footer>
+</footer>
 </div>
 
 </body>
